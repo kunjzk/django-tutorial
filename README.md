@@ -30,3 +30,5 @@ Extra stuff
 ## Admin
 
 1. For site managers to add/edit content that is viewed on the public site. Super useful!
+2. Create a superuser first using manage.py. In my case the username is admin and password is password.
+3. Register models with the admin site in app/admin.py. Models then show up in the admin site, easy for site managers to update data. Crazy useful..
